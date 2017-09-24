@@ -1,0 +1,32 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Describe my-app here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "prop-types": "^15.5.10",
+    "react-router-dom": "^4.1.2",
+    "moment": "2.18.1",
+    "react-filterable-table": "^0.2.9",
+    "react-pager": "^1.2.1",
+    "match-sorter": "^1.8.1",
+    "namor": "^1.0.1",
+    "react-table": "^6.5.3"
+  },
+  "devDependencies": {
+    "nwb": "0.18.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
